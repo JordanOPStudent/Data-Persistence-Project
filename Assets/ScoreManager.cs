@@ -22,6 +22,8 @@ public class ScoreManager : MonoBehaviour
 
         Instance = this;
         DontDestroyOnLoad(gameObject);
+
+        LoadData();
     }
 
     // Start is called before the first frame update
