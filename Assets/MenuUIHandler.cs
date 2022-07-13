@@ -25,7 +25,7 @@ public class MenuUIHandler : MonoBehaviour
 
     public void StartNewGame()
     {
-        MainManager.Instance.CurrentPlayer = PlayerName.text;
+        ScoreManager.Instance.CurrentPlayer = PlayerName.text;
         SceneManager.LoadScene(1);
     }
 
